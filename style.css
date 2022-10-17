@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  background-image: url("/images/bg-header-desktop.png");
+  background-size: cover;
+  width: 100vw;
+  height: 200px;
+  /* padding: 75px 0px; */
+  padding-top: 75px;
+}
+.img__logo {
+  width: 75px;
+  height: 75px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
