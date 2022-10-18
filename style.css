@@ -6,7 +6,7 @@
   font-size: 18px;
 }
 
-/* header */
+/* hero */
 header {
   background-image: url("/images/bg-header-desktop.png");
   background-size: cover;
@@ -41,8 +41,7 @@ header {
   font-size: medium;
   margin-bottom: 30px;
 }
-
-/* download buttons */
+/* download_btns */
 .download_btns {
   display: flex;
   justify-content: center;
@@ -57,6 +56,8 @@ header {
 }
 
 /* utility classes */
+
+/* bg_ios */
 .bg_ios {
   border-color: hsl(171, 66%, 44%);
   background-color: hsl(171, 66%, 44%);
@@ -65,6 +66,8 @@ header {
   /* in order: x offset, y offset, blur size, spread size, color */
   box-shadow: 0px 10px 10px 0px hsl(171, 66%, 44%, 0.3);
 }
+
+/* bg_mac */
 .bg_mac {
   border-color: hsl(233, 100%, 69%);
   background-color: hsl(233, 100%, 69%);
