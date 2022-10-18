@@ -43,6 +43,11 @@ header {
 }
 
 /* download buttons */
+.download_btns {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
 .download_btns > button {
   padding: 10px 20px;
   border-radius: 20px;
