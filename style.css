@@ -41,3 +41,11 @@ header {
   font-size: medium;
   margin-bottom: 30px;
 }
+
+/* download buttons */
+.download_btns > button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: medium;
+  font-weight: 600;
+}
