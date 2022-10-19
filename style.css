@@ -6,7 +6,7 @@
   font-size: 18px;
 }
 
-/* hero */
+/* header */
 header {
   background-image: url("/images/bg-header-desktop.png");
   background-size: cover;
@@ -22,24 +22,12 @@ header {
   margin: 0px auto;
 }
 
-/* container */
+/* main */
 .container {
   max-width: 500px;
   display: block;
   margin: 0px auto;
   text-align: center;
-}
-.container > h1 {
-  font-size: 1.7rem;
-  color: hsl(210, 10%, 33%);
-  line-height: 1;
-  margin-bottom: 10px;
-}
-.container > section {
-  color: hsl(201, 11%, 66%);
-  line-height: 1.3;
-  font-size: medium;
-  margin-bottom: 30px;
 }
 
 /* download_btns */
@@ -47,6 +35,7 @@ header {
   display: flex;
   justify-content: center;
   gap: 15px;
+  margin-top: 25px;
 }
 .download_btns > button {
   padding: 10px 20px;
@@ -56,41 +45,51 @@ header {
   color: white;
 }
 
+/* section */
+section {
+  margin-bottom: 50px;
+}
+
 /* article */
-article {
-  margin-top: 100px;
+.first_article h1 {
+  font-size: 1.6rem;
+  color: hsl(210, 10%, 33%);
+  line-height: 1.3;
+}
+.first_article p {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+  font-size: medium;
 }
 article h2 {
   font-size: 1.3rem;
   color: hsl(210, 10%, 33%);
   line-height: 1.3;
-  margin-bottom: 10px;
 }
-article section {
+article p {
   color: hsl(201, 11%, 66%);
   line-height: 1.5;
   font-size: small;
-  margin-bottom: 30px;
 }
 
 /* utility classes */
 
-/* bg_ios */
+/* background */
 .bg_ios {
   border-color: hsl(171, 66%, 44%);
   background-color: hsl(171, 75%, 37%);
 }
+.bg_mac {
+  border-color: hsl(233, 100%, 69%);
+  background-color: hsl(233, 68%, 53%);
+}
+
+/* hover */
 .bg_ios:hover {
   /* in order: x offset, y offset, blur size, spread size, color */
   box-shadow: 0px 10px 10px 0px hsl(171, 66%, 44%, 0.3);
   background-color: hsl(171, 66%, 44%);
   cursor: pointer;
-}
-
-/* bg_mac */
-.bg_mac {
-  border-color: hsl(233, 100%, 69%);
-  background-color: hsl(233, 68%, 53%);
 }
 .bg_mac:hover {
   /* in order: x offset, y offset, blur size, spread size, color */
