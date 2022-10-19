@@ -24,15 +24,15 @@ header {
 
 /* container */
 .container {
-  max-width: 590px;
+  max-width: 500px;
   display: block;
   margin: 0px auto;
   text-align: center;
 }
 .container > h1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: hsl(210, 10%, 33%);
-  line-height: 1.5;
+  line-height: 1;
   margin-bottom: 10px;
 }
 .container > section {
@@ -41,6 +41,7 @@ header {
   font-size: medium;
   margin-bottom: 30px;
 }
+
 /* download_btns */
 .download_btns {
   display: flex;
@@ -53,6 +54,23 @@ header {
   font-size: medium;
   font-weight: 600;
   color: white;
+}
+
+/* article */
+article {
+  margin-top: 100px;
+}
+article h2 {
+  font-size: 1.3rem;
+  color: hsl(210, 10%, 33%);
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+article section {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+  font-size: small;
+  margin-bottom: 30px;
 }
 
 /* utility classes */
