@@ -15,14 +15,11 @@ header {
 }
 .img__logo {
   display: block;
-  justify-content: center;
-  align-items: center;
   margin: 0px auto;
 }
 
 /* main */
 main {
-  max-width: 1440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,6 +48,7 @@ main {
 section {
   margin-bottom: 50px;
   line-height: 1.5;
+  text-align: center;
 }
 
 /* first_section */
@@ -85,6 +83,18 @@ section {
   font-size: 1.2rem;
 }
 
+/* forth section */
+.forth_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.forth_section img {
+  display: block;
+  margin: 50px auto;
+}
+
 /* articles */
 article h2 {
   font-size: 1.7rem;
@@ -93,6 +103,15 @@ article h2 {
 article p {
   color: hsl(201, 11%, 66%);
   font-size: 0.9rem;
+}
+
+/* credit */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 /* utility classes */
