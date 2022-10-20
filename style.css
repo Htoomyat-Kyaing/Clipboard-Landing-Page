@@ -11,11 +11,11 @@ header {
   background-image: url("/images/bg-header-desktop.png");
   background-size: cover;
   width: 100vw;
-  padding: 75px 0px 50px 0px;
+  padding: 125px 0px 75px 0px;
 }
 .img__logo {
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   display: block;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@ header {
 
 /* main */
 .container {
-  max-width: 500px;
+  max-width: 560px;
   display: block;
   margin: 0px auto;
   text-align: center;
@@ -51,25 +51,29 @@ section {
   line-height: 1.5;
 }
 .first_section article > h1 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: hsl(210, 10%, 33%);
 }
 .first_section article > p {
   color: hsl(201, 11%, 66%);
-  font-size: medium;
+  font-size: 1rem;
+}
+.third_section {
+  display: flex;
 }
 .third_section article > h3 {
   color: hsl(210, 10%, 33%);
+  font-size: 1.2rem;
 }
 
 /* article */
 article h2 {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   color: hsl(210, 10%, 33%);
 }
 article p {
   color: hsl(201, 11%, 66%);
-  font-size: small;
+  font-size: 0.8rem;
 }
 
 /* utility classes */
