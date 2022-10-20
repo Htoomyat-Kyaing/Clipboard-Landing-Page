@@ -48,32 +48,31 @@ header {
 /* section */
 section {
   margin-bottom: 50px;
+  line-height: 1.5;
+}
+.first_section article > h1 {
+  font-size: 1.6rem;
+  color: hsl(210, 10%, 33%);
+}
+.first_section article > p {
+  color: hsl(201, 11%, 66%);
+  font-size: medium;
+}
+.third_section article > h3 {
+  color: hsl(210, 10%, 33%);
 }
 
 /* article */
-.first_article h1 {
-  font-size: 1.6rem;
-  color: hsl(210, 10%, 33%);
-  line-height: 1.3;
-}
-.first_article p {
-  color: hsl(201, 11%, 66%);
-  line-height: 1.5;
-  font-size: medium;
-}
 article h2 {
   font-size: 1.3rem;
   color: hsl(210, 10%, 33%);
-  line-height: 1.3;
 }
 article p {
   color: hsl(201, 11%, 66%);
-  line-height: 1.5;
   font-size: small;
 }
 
 /* utility classes */
-
 /* background */
 .bg_ios {
   border-color: hsl(171, 66%, 44%);
