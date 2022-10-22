@@ -98,13 +98,16 @@ section {
 /* sixth_section */
 .sixth_section {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   gap: 20px;
 }
 .sixth_section > article {
   width: 350px;
+}
+
+/* seventh_section */
+.seventh_section {
+  display: flex;
+  gap: 70px;
 }
 
 /* articles */
