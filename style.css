@@ -90,9 +90,21 @@ section {
   justify-content: center;
   align-items: center;
 }
-.forth_section img {
+.forth_section > img {
   display: block;
   margin: 50px auto;
+}
+
+/* sixth_section */
+.sixth_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.sixth_section > article {
+  width: 350px;
 }
 
 /* articles */
