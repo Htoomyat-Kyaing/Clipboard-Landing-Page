@@ -121,12 +121,45 @@ article p {
   font-size: 0.9rem;
 }
 
+/* footer */
+footer {
+  background-color: #f6f6f6;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: flex-start;
+  align-items: center;
+}
+
+footer > img {
+  display: block;
+  margin: 0px auto;
+}
+
+footer > p {
+  display: block;
+  margin: 0px auto;
+}
+
+/* link_container */
+.links_container {
+  grid-column: 2 / span 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* socials_container */
+.socials_container {
+  display: block;
+  margin: 0px auto;
+}
+
 /* credit */
-.attribution {
+.credit {
   font-size: 11px;
   text-align: center;
+  grid-column: 2 / span 2;
 }
-.attribution a {
+.credit a {
   color: hsl(228, 45%, 44%);
 }
 
