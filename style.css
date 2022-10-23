@@ -5,8 +5,6 @@
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
 }
-
-/* header */
 header {
   background-image: url("/images/bg-header-desktop.png");
   background-size: cover;
@@ -17,8 +15,6 @@ header {
   display: block;
   margin: 0px auto;
 }
-
-/* main */
 main {
   display: flex;
   flex-direction: column;
@@ -29,7 +25,7 @@ main {
   max-width: 650px;
 }
 
-/* download_btns */
+/* download buttons */
 .download_btns {
   display: flex;
   justify-content: center;
@@ -44,7 +40,6 @@ main {
   color: white;
 }
 
-/* section */
 section {
   margin-bottom: 50px;
   line-height: 1.5;
@@ -166,7 +161,6 @@ footer > p {
 }
 
 /* utility classes */
-/* background */
 .bg_ios {
   border-color: hsl(171, 66%, 44%);
   background-color: hsl(171, 66%, 44%);
@@ -175,8 +169,6 @@ footer > p {
   border-color: hsl(233, 100%, 69%);
   background-color: hsl(233, 100%, 69%);
 }
-
-/* hover */
 .bg_ios:hover {
   /* in order: x offset, y offset, blur size, spread size, color */
   box-shadow: 7px 7px 10px 0px hsl(171, 66%, 44%, 0.3);
