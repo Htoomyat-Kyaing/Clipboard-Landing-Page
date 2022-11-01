@@ -167,6 +167,12 @@ a:hover {
   color: hsl(171, 66%, 44%);
 }
 
+/* svg */
+a:hover svg path {
+  cursor: pointer;
+  fill: hsl(171, 66%, 44%);
+}
+
 /* credit */
 .credit {
   font-size: 11px;
